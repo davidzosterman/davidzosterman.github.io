@@ -33,7 +33,7 @@ The data all exists in the plane `roberta_pos`+`roberta_neg`+`roberta_neu`=1, so
 
 We then find a best fit hyperbola to the data, find the nearest point on the curve to each data point, and assign that data point a new star rating equal to the fraction of its distance along the curve times 4.0 plus 1.0.
 
-<img src="images/visualize_documents-3-D.png" alt="Re-Star Amazon Reviews" width="600"/>
+<img src="images/visualize_documents-3-D.png" alt="Re-Star Bangia Reviews" width="600"/>
 
 ### Processed Data
 The final dataframe contains the 3 columns of the original dataframe, plus 6 new columns:
