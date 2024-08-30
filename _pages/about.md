@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Testing 1 2 3
+Hello! I am a Physicist and data scientist seeking roles in machine learning and data science. I am open to in-person work (greater New York area) or remote work.
 
-Testing 1 2 3
+I completed my PhD in Physics at the University of Massachusetts Amherst in February 2024 under Professor Scott Hertel. \
+Dissertation: *Aluminum Quasiparticle Diffusion Measurements in Vacuum and Superfluid Helium 4*
