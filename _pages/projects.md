@@ -62,7 +62,7 @@ Fall 2024
 
 Creating a two-input convolutional neural network to decide the winner between two bodybuilder photos.
 
-<img src="./other_images/cover_image.png" alt="Nice Header Plot" width="300"/> <img src="./other_images/cover_image_2.jpg" alt="Nice Header Plot" width="300"/>
+<img src="../images/visualize_documents-cover_image.png" alt="Nice Header Plot" width="300"/> <img src="../images/visualize_documents-cover_image_2.jpg" alt="Nice Header Plot" width="300"/>
 
 ## Data Description
 
@@ -95,10 +95,10 @@ Both networsk were trained for 20 epochs with 108 workers and a batch size of 25
 
 We measured the loss and accuracy for the training and validation set for each epoch of training. Despite varying multiple hyperparameters, including learning rate and number of epochs, we were unsuccessful in validating either of the models. In every case, we found that either the model did not learn (training and validation loss functions remained flat)
 
-<img src="./other_images/orig_net_not_training.png" alt="Original Net Not Training" width="600"/>
+<img src="../images/visualize_documents-orig_net_not_training.png" alt="Original Net Not Training" width="600"/>
 
 or overfit (training loss function decreased while validation loss function increased.
 
-<img src="./other_images/resnet_overfit.png" alt="ResNet50 Overfit" width="600"/>
+<img src="../images/visualize_documents-resnet_overfit.png" alt="ResNet50 Overfit" width="600"/>
 
 Potential improvements include  investigating the behavior of our models carefully and collecting more data from the NPC website to add more photo pairs. It may also be useful to train a separate network to facilitate the photo selection process.
